@@ -1,5 +1,4 @@
 import React from "react";
-/* import avatar from "../public/images/cv-avatar.png"; */
 import "./App.css";
 import styled from "styled-components";
 import Avatar from "../src/images/cv-avatar.png";
@@ -51,20 +50,6 @@ const TextContent = styled.p`
   color: #112233;
   font-family: "Montserrat", sans-serif;
   font-size: 0.7em;
-`;
-
-const Button = styled.button`
-  background-color: #f0b37c;
-  border: none;
-  font-color: white;
-  padding: 13px 50px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1em;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
 `;
 
 const Link = styled.a`
