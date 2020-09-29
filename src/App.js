@@ -2,6 +2,11 @@ import React from "react";
 /* import avatar from "../public/images/cv-avatar.png"; */
 import "./App.css";
 import styled from "styled-components";
+import Avatar from "../src/images/cv-avatar.png";
+import HtmlLogo from "../src/images/html-logo.png";
+import PhpLogo from "../src/images/php_logo.png";
+import ReactLogo from "../src/images/react-icon.png";
+import SassLogo from "../src/images/sass-logo.png";
 
 const AvatarImage = styled.img`
   max-width: 200px;
@@ -73,16 +78,16 @@ function App() {
   return (
     <div className="App">
       <TeamCard>
-        <AvatarImage src="/images/cv-avatar.png" alt="avatar" />
+        <AvatarImage src={Avatar} alt="avatar" />
         <Title>Lova Duvnäs</Title>
         <TextContent>Front-End Developer Intern at Redmind</TextContent>
         <TextContent>Working with Way To Go</TextContent>
 
         <FlexContainer>
-          <LogoImage src="/images/react-icon.png" alt="avatar" />
-          <LogoImage src="/images/html-logo.png" alt="avatar" />
-          <LogoImage src="/images/php_logo.png" alt="avatar" />
-          <LogoImage src="/images/sass-logo.png" alt="avatar" />
+          <LogoImage src={HtmlLogo} alt="avatar" />
+          <LogoImage src={PhpLogo} alt="avatar" />
+          <LogoImage src={ReactLogo} alt="avatar" />
+          <LogoImage src={SassLogo} alt="avatar" />
         </FlexContainer>
         <TextContent>Find me at</TextContent>
 
